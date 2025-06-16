@@ -3,7 +3,11 @@
 <head>
   <title>Add Two Numbers</title>
   <script>
+<<<<<<< HEAD
     function addTwoNumbers() {
+=======
+    function addNumbers() {
+>>>>>>> 4b98c8e932c7ba7fbca6f1fe8f69584f00d2b52c
       // Get input from user
       let num1 = parseFloat(prompt("Enter the first number:"));
       let num2 = parseFloat(prompt("Enter the second number:"));
@@ -11,13 +15,25 @@
       // Calculate the sum
       let sum = num1 + num2;
 
+<<<<<<< HEAD
       // Show result in alert
       alert("The sum of " + num1 + " and " + num2 + " is: " + sum);
+=======
+      // Display the result
+      document.getElementById("result").innerHTML = 
+        "The sum of " + num1 + " and " + num2 + " is: " + sum;
+>>>>>>> 4b98c8e932c7ba7fbca6f1fe8f69584f00d2b52c
     }
   </script>
 </head>
 <body>
+<<<<<<< HEAD
   <h2>Click the button to add two numbers</h2>
   <button onclick="addTwoNumbers()">Add Numbers</button>
+=======
+  <h2>Simple Addition Program</h2>
+  <button onclick="addNumbers()">Add Two Numbers</button>
+  <p id="result"></p>
+>>>>>>> 4b98c8e932c7ba7fbca6f1fe8f69584f00d2b52c
 </body>
 </html>
