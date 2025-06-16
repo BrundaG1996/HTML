@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Two Numbers</title>
+  <script>
+    function addNumbers() {
+      // Get input from user
+      let num1 = parseFloat(prompt("Enter the first number:"));
+      let num2 = parseFloat(prompt("Enter the second number:"));
+
+      // Calculate the sum
+      let sum = num1 + num2;
+
+      // Display the result
+      document.getElementById("result").innerHTML = 
+        "The sum of " + num1 + " and " + num2 + " is: " + sum;
+    }
+  </script>
+</head>
+<body>
+  <h2>Simple Addition Program</h2>
+  <button onclick="addNumbers()">Add Two Numbers</button>
+  <p id="result"></p>
+</body>
+</html>
